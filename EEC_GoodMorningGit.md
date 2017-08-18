@@ -84,10 +84,10 @@
 	git add .
 	git commit -m 'initial commit'
 	git remote add origin //192.168.0.1/project.git
-	git push master
-  ```
+	git push master```
   
   Thats All folks!
 ---	
-	Version: `0.1a` 
-    Date: `19.08.2017`
+	
+Version:`0.1a`
+Date: `18.08.2017`
