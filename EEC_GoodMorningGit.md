@@ -1,7 +1,7 @@
 ## GoodMorningGit
 ### Dayly\Weekly commands use of git and github
 
-#### 1.Project
+#### Project
 	* Project - information file about dayly/weekly git commands
 		* Good commands
 		* Morning commands
@@ -10,14 +10,14 @@
 		* Server commands
 	* This project for quick cases working with git and github
 	* My story: I frequently use some commands, sometimes I creating git server, and would like have everiting what I use online for reaching from any device.
-#### 2.What I use in this project
+#### What I use in this project
 	* Frameworks : I use Git and Github
 	* Links: [GITHUB/EEC_GoodMorningGit](https://github.com/EvilEpicCoder/EEC_GoodMorningGit "GoodMorningGit")
 		* Note or star my page.
 	* Links: [GITHUB](https://www.github.com "GITHUB")
 		* Best place for share.
 	* Features: Cool tricks in one place
-#### 3. My thoughts
+#### My thoughts
 	* Pros and Cons : Easy and dayly, probably you will forget others commands
 	* Time consumption: Very cool decreasing time for search, easy to print 
 	* What I learned : you must spend time, for increase your productivity!
