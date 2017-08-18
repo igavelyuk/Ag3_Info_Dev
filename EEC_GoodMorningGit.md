@@ -12,18 +12,17 @@
 3. My story: I frequently use some commands, sometimes I creating git server, and would like have everiting what I use online for reaching from any device.
 
 #### What I use in this project
-
-	  * Frameworks : I use Git and Github
-	  * Links: [GITHUB/EEC_GoodMorningGit](https://github.com/EvilEpicCoder/EEC_GoodMorningGit "GoodMorningGit")
-		  * Note or star my page.
-	  * Links: [GITHUB](https://www.github.com "GITHUB")
-		  * Best place for share.
-	  * Features: Cool tricks in one place
+1. Frameworks : I use Git and Github
+2. Links: [GITHUB/EEC_GoodMorningGit](https://github.com/EvilEpicCoder/EEC_GoodMorningGit "GoodMorningGit")
+* Note or star my page.
+3. Links: [GITHUB](https://www.github.com "GITHUB")
+* Best place for share.
+4. Features: Cool tricks in one place
 #### My thoughts
 
-	* Pros and Cons : Easy and dayli, probably you will forget others commands
-	* Time consumption: Very cool decreasing time for search, easy to print 
-	* What I learned : you must spend time, for increase your productivity!
+  * Pros and Cons : Easy and dayli, probably you will forget others commands
+  * Time consumption: Very cool decreasing time for search, easy to print 
+  * What I learned : you must spend time, for increase your productivity!
 ---
 ## Good commands
 
