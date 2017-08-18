@@ -32,9 +32,15 @@
 	$ git config --global user.email 1st.elixile@gmail.com
 	$ git config --global core.editor geany
 	$ git config --global merge.tool vimdiff
-	$ git config credential.https://github.com.EvilEpicCoder EvilEpicCoder
+	$ git config credential.https://github.com EvilEpicCoder
 	$ git config credential.helper store
-	$ git push http://example.com/repo.git
+	$ git push
+ ```
+ in the next time will be automaticaly used your login and password
+ so you need just to write
+  ```
+  git commit -a
+  git push
  ```
 2. Check defaults
  ```
