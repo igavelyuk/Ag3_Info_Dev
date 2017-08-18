@@ -64,17 +64,14 @@
    * Copy ` *.pub ` file to the server `home/git/.ssh/authorizati...` and rename to `autorized-keys`
 
    * Init server side git
-   
-		```
+  ```
 	mkdir /var/gitroot
 	mkdir /var/gitroot/project.git
 	cd project.git
 	git --bare init
-   ```
-  
+```
 4. On user compuret 
-
-	```
+  ```
 git init
 git add .
 git commit -m 'initial commit'
