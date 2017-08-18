@@ -26,7 +26,7 @@
 * What I learned : you must spend time, for increase your productivity!
 ---
 ## Good commands
-	1. Default user
+1. Default user
   ```
 	$ git config --global user.name "EvilEpicCoder"
 	$ git config --global user.email 1st.elixile@gmail.com
@@ -34,7 +34,7 @@
 	$ git config --global merge.tool vimdiff
 	$ git config credential.https://github.com.EvilEpicCoder EvilEpicCoder
  ```
-	2. Check defaults
+2. Check defaults
  ```
     $ git config --list
  ```
