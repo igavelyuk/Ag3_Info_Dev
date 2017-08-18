@@ -18,6 +18,7 @@
 	* Links: [GITHUB](https://www.github.com "GITHUB")
 	  * Best place for share.
 * Features: Cool tricks in one place
+
 #### My thoughts
 
 * Pros and Cons : Easy and daily, probably you will forget others commands
@@ -27,39 +28,42 @@
 ## Good commands
 
 ### Morning commands
-```	git init
+   ```	git init
 	git add .
 	git commit -m 'commit message'
 	git remote add origin https://github.com/.git
 	git push -u origin master
-```
+ ```
 #### Daily commands
 
 #### Weekly commands
 
 #### Server commands
 
-	1.Installing Debian server name: gitserver
-	2.Create user: git
-* Install GIT and Apache2, MySQL, PHP7:
-  ```
-su *****
-$ apt-get install git gitcore gitweb
-$ apt-get install apache2 mysql-server mysql-client php7 phpmyadmin
-  ```
-* Installing user rights with ssh-keygen on the user computer
-* Copy ` *.pub ` file to the server `home/git/.ssh/authorizati...` and rename to `autorized-keys`
+1. Installing Debian server name: `gitserver`
+2. Create user: `git`
+   * Install GIT and Apache2, MySQL, PHP7:
+   
+   ```
+		su *****
+		$ apt-get install git gitcore gitweb
+		$ apt-get install apache2 mysql-server mysql-client php7 phpmyadmin
+	```
+3. Installing user rights with `ssh-keygen` on the user computer
+   * Copy ` *.pub ` file to the server `home/git/.ssh/authorizati...` and rename to `autorized-keys`
+
+   * Init server side git
+   
+		```
+	mkdir /var/gitroot
+	mkdir /var/gitroot/project.git
+	cd project.git
+	git --bare init
+   ```
+  
+4. On user compuret 
 
 	```
-mkdir /var/gitroot
-mkdir /var/gitroot/project.git
-cd project.git
-git --bare init
-```
-  
-* On user compuret 
-
-  ```
 git init
 git add .
 git commit -m 'initial commit'
