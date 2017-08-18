@@ -2,7 +2,7 @@
 ### Daily\Weekly commands use of git and github
 
 #### Project
-1. Project - information file about dayly/weekly git commands
+1. Project - information file about daily/weekly git commands
 	  * Good commands
 	  * Morning commands
 	  * Daily commands
@@ -28,11 +28,11 @@
 ## Good commands
 1. Default user
   ```
-	$ git config --global user.name "EvilEpicCoder"
-	$ git config --global user.email 1st.elixile@gmail.com
+	$ git config --global user.name "USERNAME"
+	$ git config --global user.email YOURmailHERE@gmail.com
 	$ git config --global core.editor geany
 	$ git config --global merge.tool vimdiff
-	$ git config credential.https://github.com EvilEpicCoder
+	$ git config credential.https://github.com USERNAME
 	$ git config credential.helper store
 	$ git push
  ```
@@ -87,3 +87,6 @@
 	git push master
   ```
 	
+	Version: ` 0.1a` 
+	
+	Date: `19.08.2017`
