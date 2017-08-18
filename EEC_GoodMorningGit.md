@@ -56,9 +56,9 @@
    * Install GIT and Apache2, MySQL, PHP7:
    
    ```
-		su *****
-		$ apt-get install git gitcore gitweb
-		$ apt-get install apache2 mysql-server mysql-client php7 phpmyadmin
+	su *****
+	$ apt-get install git gitcore gitweb
+	$ apt-get install apache2 mysql-server mysql-client php7 phpmyadmin
 	```
 3. Installing user rights with `ssh-keygen` on the user computer
    * Copy ` *.pub ` file to the server `home/git/.ssh/authorizati...` and rename to `autorized-keys`
@@ -70,12 +70,12 @@
 	cd project.git
 	git --bare init
 ```
-4. On user compuret 
+4. On user computer 
   ```
-git init
-git add .
-git commit -m 'initial commit'
-git remote add origin //192.168.0.1/project.git
-git push master
+	git init
+	git add .
+	git commit -m 'initial commit'
+	git remote add origin //192.168.0.1/project.git
+	git push master
   ```
 	
