@@ -2,14 +2,14 @@
 ### Dayly\Weekly commands use of git and github
 
 #### Project
-	* Project - information file about dayly/weekly git commands
+	1. Project - information file about dayly/weekly git commands
 		* Good commands
 		* Morning commands
 		* Dayly commands
 		* Weekly commands
 		* Server commands
-	* This project for quick cases working with git and github
-	* My story: I frequently use some commands, sometimes I creating git server, and would like have everiting what I use online for reaching from any device.
+	2. This project for quick cases working with git and github
+	3. My story: I frequently use some commands, sometimes I creating git server, and would like have everiting what I use online for reaching from any device.
 #### What I use in this project
 	* Frameworks : I use Git and Github
 	* Links: [GITHUB/EEC_GoodMorningGit](https://github.com/EvilEpicCoder/EEC_GoodMorningGit "GoodMorningGit")
