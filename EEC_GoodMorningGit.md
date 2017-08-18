@@ -33,6 +33,8 @@
 	$ git config --global core.editor geany
 	$ git config --global merge.tool vimdiff
 	$ git config credential.https://github.com.EvilEpicCoder EvilEpicCoder
+	$ git config credential.helper store
+	$ git push http://example.com/repo.git
  ```
 2. Check defaults
  ```
