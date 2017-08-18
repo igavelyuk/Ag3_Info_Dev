@@ -24,19 +24,22 @@
 ## Name of project
 ### Additional annotation
 
-#### Project
-1. This page made for portfolio template
-2. I create this because some pages have to much....
-	* Sub list item here
-3. I was looking ....
+#### 1.Project
 
-#### What I use in this project
-	* Frameworks : [This is Link](https://www.google.com "Google's Homepage")
-		* What cool things I found
-		* What I do not like
-	* Features:
-### My thoughts
-	* Pros and Cons 
-	* Time consumption
-	* What I learned
+	* Project created for CHANGE_HERE
+	* Why it created, which problens solved: CHANGE_HERE
+	* Small story telling : CHANGE_HERE
+#### 2. What I use in this project
+	* Frameworks : CHANGE_HERE
+	* Links: [This is Link CHANGE_HERE name](https://www.CHANGE_HERE "CHANGE_HERE")
+		* What cool things I found:
+		* What I do not like:
+	* Features: CHANGE_HERE
+#### 3. My thoughts
+	* Pros and Cons :
+	* Time consumption 
+	* What I learned 
+	
 ```
+Version: `0.1a`
+Date: `18.08.2017`
