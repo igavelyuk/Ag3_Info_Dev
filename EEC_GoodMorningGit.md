@@ -54,7 +54,7 @@
   $ git add .
   $ git commit -m 'commit message'
   $ git remote add origin https://github.com/.git
-  $ git config credential.https://github.com "USERNAME"
+  $ git config credential.https://github.com.username myusername
   $ git push -u origin master
  ```
 #### Daily commands
