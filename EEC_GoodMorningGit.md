@@ -73,11 +73,11 @@
 1. Installing Debian server name: `gitserver`
 2. Create user: `git`
    * Install GIT and Apache2, MySQL, PHP7:
-   ```bash
- su *****
- $ apt-get install git gitcore gitweb
- $ apt-get install apache2 mysql-server mysql-client php7 phpmyadmin
- ```
+  ```bash
+  su *****
+  $ apt-get install git gitcore gitweb
+  $ apt-get install apache2 mysql-server mysql-client php7 phpmyadmin
+  ```
 3. Installing user rights with `ssh-keygen` on the user computer
   * Copy `*.pub`  file to the server `home/git/.ssh/authorizati...` and rename to `autorized-keys`
   * Init server side git
@@ -100,5 +100,5 @@
 
 ---
 
-Version: `0.3a`
-Date: `16.09.2017`
+Version: `0.4a`
+Date: `9.10.2017`
