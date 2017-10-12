@@ -25,21 +25,23 @@
 ### Additional annotation
 
 #### 1.Project
-
-	* Project created for CHANGE_HERE
-	* Why it created, which problens solved: CHANGE_HERE
-	* Small story telling : CHANGE_HERE
+ * Project created for CHANGE_HERE
+ * Why it created, which problens solved: CHANGE_HERE
+ * Small story telling : CHANGE_HERE
 #### 2. What I use in this project
-	* Frameworks : CHANGE_HERE
-	* Links: [This is Link CHANGE_HERE name](https://www.CHANGE_HERE "CHANGE_HERE")
-		* What cool things I found:
-		* What I do not like:
-	* Features: CHANGE_HERE
+ * Frameworks : CHANGE_HERE
+ * Links: [This is Link CHANGE_HERE name](https://www.CHANGE_HERE "CHANGE_HERE")
+ * What cool things I found:
+  * What I do not like:
+  * Features: CHANGE_HERE
 #### 3. My thoughts
-	* Pros and Cons :
-	* Time consumption 
-	* What I learned 
+  * Pros and Cons :
+  * Time consumption 
+  * What I learned
+
+  Version: `0.2a`
+  Date: `12.10.2017`
 	
 ```
-Version: `0.1a`
-Date: `18.08.2017`
+Version: `0.2a`
+Date: `12.10.2017`
