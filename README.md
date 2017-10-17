@@ -30,7 +30,7 @@
  * Small story telling : CHANGE_HERE
 #### 2. What I use in this project
  * Frameworks : CHANGE_HERE
- * Links: [This is Link CHANGE_HERE name](https://www.CHANGE_HERE "CHANGE_HERE")
+ * Links: [This is Link CHANGE_HERE name](https://www.CHANGE_HERE)
  * What cool things I found:
   * What I do not like:
   * Features: CHANGE_HERE
@@ -39,9 +39,9 @@
   * Time consumption 
   * What I learned
 
-  Version: `0.2a`
-  Date: `12.10.2017`
+  Version: `0.3a`
+  Date: `18.10.2017`
 	
 ```
-Version: `0.2a`
-Date: `12.10.2017`
+Version: `0.3a`
+Date: `18.10.2017`
