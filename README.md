@@ -20,7 +20,7 @@
  
  * Install MySQL:`apt install mysql-server mysql-client`
  
- * Install PHP7:`apt install php7.0 libapache2-mod-php7.0 php7.0-mysql php7.0-curl php7.0-json php-gd`
+ * Install PHP7:`apt install php7.0 libapache2-mod-php7.0 php7.0-mysql php7.0-curl php7.0-json php-gd php-bcmath`
  * Check php working
   ```
   cd /var
