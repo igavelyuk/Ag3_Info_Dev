@@ -37,8 +37,7 @@
 
  * Clear URL for Drupal:
    * `nano /etc/apache2/sites-available/000-default.conf`
-   * change DirectoryRoot /var/www/html to DirectoryRoot /var/www and paste Directory section
-
+   * If inside you have `<Directory "/var/www">` section find `AllowOverride None` change to `AllowOverride All`
 
 * Install Development Environment:
   ```
