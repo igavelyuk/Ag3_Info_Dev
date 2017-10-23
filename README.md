@@ -21,34 +21,24 @@
  * Install MySQL:`apt install mysql-server mysql-client`
 
  * Install PHP7:`apt install php7.0 libapache2-mod-php7.0 php7.0-mysql php7.0-curl php7.0-json php-gd php-bcmath`
+ * Restart apache2 `/etc/init.d/apache2 restart
+`
  * Check php working
-  ```
+  ```bash
   cd /var
   chmod 777 www -R
-
   cd /var/www/html/
   mv index.html index.2.html
   nano info.php
+
   ```
+
    * write text in nano `<?php phpinfo(); ?>`
 
  * Clear URL for Drupal:
    * `nano /etc/apache2/sites-available/000-default.conf`
    * change DirectoryRoot /var/www/html to DirectoryRoot /var/www and paste Directory section
 
-  ```
-  DirectoryRoot /var/www
-
-  <Directory /var/www/html>
-                Options Indexes FollowSymLinks MultiViews
-                AllowOverride All
-                Order allow,deny
-                allow from all
-                # Uncomment this directive is you want to see apache2's
-                # default start page (in /apache2-default) when you go to /
-                #RedirectMatch ^/$ /apache2-default/
-  </Directory>
-  ```
 
 * Install Development Environment:
   ```
@@ -61,23 +51,55 @@
   apt install composer
   ```
 * Install Last Updates for Drupal8:
-  ```
+* Change privileges of /usw/www to webserver
+ ```bash
   su
   [PASSWORD]
+  chown www-data:www-data www -R
+  chmod 777 www -R
   curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
   ```
 * or
-  ```
+  ```bash
   curl -sS https://getcomposer.org/installer | php
   ```
 * then
- ```
+ ```bash
  php composer.phar install
  cd /var/www/html/
-
  composer config repositories.drupal composer https://packages.drupal.org/8
  composer require "drupal/address ~1.0"
  composer update drupal/address --with-dependencies
  ```
-  Version: `0.5a`
-  Date: `22.10.2017`
+#### Quick copy paste
+ Install all and after restart server
+ ```
+ apt install apache2 vsftpd mysql-server mysql-client php7.0 libapache2-mod-php7.0 php7.0-mysql php7.0-curl php7.0-json php-gd php-bcmath;/etc/init.d/apache2 restart
+ ```
+ * Change `/etc/apache2/apache2.conf`
+ ```
+  <Directory "/var/www">
+        Options Indexes FollowSymLinks
+        AllowOverride All
+  </Directory>
+ ```
+ * Add .htacess to Drupal folder /var/www
+ ```JavaScript
+ RewriteEngine on
+ RewriteBase /
+ RewriteCond %{REQUEST_FILENAME} !-f
+ RewriteCond %{REQUEST_FILENAME} !-d
+ RewriteCond %{REQUEST_URI} !=/favicon.ico
+ RewriteRule ^ index.php [L]
+ ```
+
+#### Phpmyadmin deprecation error solver
+ ```
+ apt-get remove --purge phpmyadmin php-gettext php-mbstring -y
+ apt-get autoremove -y
+ apt-get update
+ apt-get install phpmyadmin php-gettext php-mbstring -y
+ ```
+
+  Version: `0.6a`
+  Date: `23.10.2017`
