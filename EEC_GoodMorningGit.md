@@ -74,6 +74,7 @@
   ```bash
   cd GitDir
   mkdir subProjDir
+  cd subProjDir
   git clone https://github.com/YourUsername/blablaProject.git
   cd blablaProject
   git remote add origin https://github.com/YourUsername/blablaProject.git
@@ -92,7 +93,7 @@
   git reset --hard upstream/master
   git merge upstream/master
   ```
-#### Server commands
+#### Server commands <a name="Server-commands"></a>
 
 1. Installing Debian server name: `gitserver`
 2. Create user: `git`
@@ -124,5 +125,5 @@
 
 ---
 
-Version: `0.4a`
-Date: `9.10.2017`
+Version: `0.6a`
+Date: `Haloween 31.10.2017`
