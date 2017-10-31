@@ -3,12 +3,12 @@
 
 #### Project
 1. Project - information file about daily/weekly git commands (alone mode)
-  * [Good commands](Good commands)
+  * [Good commands](#Good-commands)
   * [Morning commands](#Morning-commands)
-  * [Daily commands](Daily commands)
-  * [Weekly commands](Weekly commands)
-  * [Fork/Update](Fork/Update)
-  * [Server commands](Server commands)
+  * [Daily commands](#Daily-commands)
+  * [Weekly commands](#Weekly-commands)
+  * [Fork-Update](#Fork-Update)
+  * [Server commands](#Server-commands)
 2. This project for quick cases working with git and github
 3. My story: I frequently use some commands, sometimes I creating git server, and would like have everiting what I use online for reaching from any device.
 
@@ -26,7 +26,7 @@
 * Time consumption: Very cool decreasing time for search, easy to print.
 * What I learned : you must spend time, for increase your productivity!
 ---
-## [Good commands]:Good commands
+#### Good commands <a name="Good-commands"></a>
 1. Default user (do not use quotes in names)
   ```bash
   $ git config --global user.name "USERNAME"
@@ -49,7 +49,7 @@
  ```bash
   $ git config --list
  ```
-### Morning-commands
+#### Morning commands <a name="Morning-commands"></a>
    ```bash
   $ git init
   $ git add .
@@ -58,7 +58,7 @@
   $ git config credential.https://github.com.username myusername
   $ git push -u origin master
  ```
-#### Daily commands
+#### Daily commands <a name="Daily-commands"></a>
  * Remove specific file
 
   ```bash
@@ -66,10 +66,10 @@
   $ git commit --amend -CHEAD
   $ git push
  ```
-#### Weekly commands
+#### Weekly commands <a name="Weekly-commands"></a>
   * nothing here yet
 
-#### Fork/Update
+#### Fork/Update <a name="Fork-Update"></a>
   * Fork on github
   ```bash
   cd GitDir
