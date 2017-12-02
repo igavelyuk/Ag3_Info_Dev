@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# Ag3_Info_Dev
-=======
 ## My Template for Readme.md (markdown text)
 
 ### Intend to help me structure of my Readme Files
@@ -20,7 +17,7 @@
 	* Pros and Cons (copy complete section of MARKDOWN CODE and edit)
 	* Time consumption ( will be decrease your time to think what shit I must put here or there)
 	* What I learned (you must spend time, for increase your productivity)
-	
+
 ### Structure
 
 ```markdown
@@ -29,7 +26,7 @@
 
 #### 1.Project
  * Project created for CHANGE_HERE
- * Why it created, which problens solved: CHANGE_HERE
+ * Why it created, which problems solved: CHANGE_HERE
  * Small story telling : CHANGE_HERE
 #### 2. What I use in this project
  * Frameworks : CHANGE_HERE
@@ -39,13 +36,12 @@
   * Features: CHANGE_HERE
 #### 3. My thoughts
   * Pros and Cons :
-  * Time consumption 
+  * Time consumption
   * What I learned
 
   Version: `0.3a`
   Date: `18.10.2017`
-	
+
 ```
 Version: `0.3a`
 Date: `18.10.2017`
->>>>>>> 373b7c2ca5dabe2fbb50032235f22d2de782beab
