@@ -1,21 +1,21 @@
-#Drupal install on Ubuntu
+# Drupal install on Ubuntu
 
-##Overview
+## Overview
 So in this lesson we will install Drupal on Apache2  on the Ubuntu.
 
-##Install LAMP
+## Install LAMP
 ```bash
 sudo apt install apache2 vsftpd mysql-server mysql-client php7.2 libapache2-mod-php7.2 php7.2-mysql php7.2-curl php7.2-json php-gd php-bcmath;/etc/init.d/apache2 restart
 
 ```
 
-##Install Dev env
+## Install Dev env
 ```bash
 add-apt-repository ppa:webupd8team/atom
 sudo apt update; sudo apt install atom
 sudo apt install git phpmyadmin nodejs npm composer
 ```
-##Configure apache2
+## Configure apache2
 
 cd /etc/apache2
 cp apache2.conf apache2.bak
@@ -66,7 +66,7 @@ sudo nano /etc/apache2/sites-available/000-default.conf
 </VirtualHost>
 
 ```
-##MySQL and phpMyAdmin (https://askubuntu.com/questions/763336/cannot-enter-phpmyadmin-as-root-mysql-5-7)
+## MySQL and phpMyAdmin (https://askubuntu.com/questions/763336/cannot-enter-phpmyadmin-as-root-mysql-5-7)
 1. Connect to mysql
 
 `sudo mysql --user=root mysql`
