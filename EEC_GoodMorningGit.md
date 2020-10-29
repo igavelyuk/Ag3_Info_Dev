@@ -121,9 +121,42 @@
   $ git push master
  ```
 
+ #### Server commands (LATEST)</a>
+[Original](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-private-git-server-on-a-vps)
+1. SSH to Server
+`sudo ssh gweb@192.168.99.81 -p 2245`
+
+2. Log into your VPS, and gain root*:
+`su -`
+
+3. Add the Unix user (not necessarily Git user names) to handle the repositories:
+`useradd git`
+
+4. If user folder don't exist
+`mkhomedir_helper git`
+
+Use the following (as root, or with sudo if not root)
+for this to work, folder `/home/username` must not exist.
+
+5. Then give your Git user a password:
+`passwd git`
+
+6. On your machine
+ - Create the SSH Key Pair `ssh-keygen -C "youremail@mailprovider.com"`  
+  - `-C` mean `comment ` use for help `ssh-keygen --help`
+
+7. Add your SSH Key to the Access List (server)
+ - `su git`
+ - `mkdir ~/.ssh && touch ~/.ssh/authorized_keys`
+
+8. Copy Key from your machine to Server
+ - you can use simple Copy
+ or
+ - cat .ssh/id_rsa.pub | ssh gweb@192.168.99.81 -p 2245 "cat >> ~/.ssh/authorized_keys"
+
   Thats All folks!
 
 ---
 
-Version: `0.6a`
+Version: `0.7a`
 Date: `Haloween 31.10.2017`
